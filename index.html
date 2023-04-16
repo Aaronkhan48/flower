@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flower Shop</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+   <header>
+    <input type="checkbox" name="" id="toggler">
+    <label for="toggler" class="fas fa-bars"></label>
+    <a href="#" class="logo">flower<span>.</span></a>
+    <nav class="navbar">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#products">Products</a>
+        <a href="#review">Review</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="icons">
+        <a href="#" class="fas fa-heart"></a>
+        <a href="#" class="fas fa-shopping-cart"></a>
+        <a href="#" class="fas fa-user"></a>
+    </div>
+   </header>
+
+   <section class="home" id="home">
+        <div class="content">
+            <h3>fresh flowers</h3>
+            <span>natural & beautiful flowers</span>
+            <p>Since the primary orchid achieved Europe in 1515, its uncommon and fragile excellence has made it an image of extravagance and polish. Today there are more than 30,000 perceived types of orchids – with an astonishing 300 new assortments found every year</p>
+            <a href="#" class="btn">shop now</a>
+        </div>
+   </section>
+
+   <section class="about" id="about">
+    <h1 class="heading"><span>about </span> us</h1>
+    <div class="row">
+        <div class="video-container">
+            <video src="/images/pexels-pavel-danilyuk-4811929-1920x1080-30fps.mp4" loop autoplay muted></video>
+            <h3>best flower sellers</h3>
+        </div>
+        <div class="content">
+            <h3>why choose us?</h3>
+            <p>Propelled by our affection for flowers and energy about nature, it is our obsession to make creative and noteworthy plant and new flower courses of action. We trust that the best, freshest flowers deliver the most noteworthy presentations.</p>
+            <p><strong><span>Flower</span></strong> is glad to give quality flowers and plants to our customers.</p>
+            <a href="#" class="btn">learn more</a>
+        </div>
+    </div>
+   </section>
+
+   <section class="icons-container">
+    <div class="icons">
+        <img src="/images/icon-1.png" alt="">
+        <div class="info">
+            <h3>free delivery</h3>
+            <span>on all orders</span>
+        </div>
+    </div>
+
+    <div class="icons">
+        <img src="data:image/jpeg;base64,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" alt="">
+        <div class="info">
+            <h3>10 day returns</h3>
+            <span>moneyback guarantee</span>
+        </div>
+    </div>
+
+    <div class="icons">
+        <img src="/images/icon-3.png" alt="">
+        <div class="info">
+            <h3>offer & gifts</h3>
+            <span>on all orders</span>
+        </div>
+    </div>
+
+    <div class="icons">
+        <img src="https://www.kindpng.com/picc/m/13-130474_black-credit-card-pay-card-icon-png-transparent.png" alt="">
+        <div class="info">
+            <h3>secure payments</h3>
+            <span>protected by paypal</span>
+        </div>
+    </div>
+   </section>
+
+   <section class="products" id="products">
+        <h1 class="heading">latest <span>products</span></h1>
+        <div class="box-container">
+            <div class="box">
+                <span class="discount">-10%</span>
+                <div class="image">
+                    <img src="/images/img-1.jpg" alt="">
+                    <div class="icon">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="cart-btn">Add to cart</a>
+                        <a href="#" class="fas fa-share"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>flower pot</h3>
+                    <div class="price">$12.99 <span>$15.99</span></div>
+                </div>
+            </div>
+
+            <div class="box">
+                <span class="discount">-15%</span>
+                <div class="image">
+                    <img src="/images/img-2.webp" alt="">
+                    <div class="icon">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="cart-btn">Add to cart</a>
+                        <a href="#" class="fas fa-share"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>flower pot</h3>
+                    <div class="price">$12.99 <span>$15.99</span></div>
+                </div>
+            </div>
+
+            <div class="box">
+                <span class="discount">-5%</span>
+                <div class="image">
+                    <img src="/images/img-3.jpg" alt="">
+                    <div class="icon">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="cart-btn">Add to cart</a>
+                        <a href="#" class="fas fa-share"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>flower pot</h3>
+                    <div class="price">$12.99 <span>$15.99</span></div>
+                </div>
+            </div>
+
+            <div class="box">
+                <span class="discount">-20%</span>
+                <div class="image">
+                    <img src="/images/img-4.jpg" alt="">
+                    <div class="icon">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="cart-btn">Add to cart</a>
+                        <a href="#" class="fas fa-share"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>flower pot</h3>
+                    <div class="price">$12.99 <span>$15.99</span></div>
+                </div>
+            </div>
+
+            <div class="box">
+                <span class="discount">-17%</span>
+                <div class="image">
+                    <img src="/images/img-5.webp" alt="">
+                    <div class="icon">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="cart-btn">Add to cart</a>
+                        <a href="#" class="fas fa-share"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>flower pot</h3>
+                    <div class="price">$12.99 <span>$15.99</span></div>
+                </div>
+            </div>
+
+            <div class="box">
+                <span class="discount">-3%</span>
+                <div class="image">
+                    <img src="/images/img-6.jpg" alt="">
+                    <div class="icon">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="cart-btn">Add to cart</a>
+                        <a href="#" class="fas fa-share"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>flower pot</h3>
+                    <div class="price">$12.99 <span>$15.99</span></div>
+                </div>
+            </div>
+
+            <div class="box">
+                <span class="discount">-18%</span>
+                <div class="image">
+                    <img src="/images/img-7.jpg" alt="">
+                    <div class="icon">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="cart-btn">Add to cart</a>
+                        <a href="#" class="fas fa-share"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>flower pot</h3>
+                    <div class="price">$12.99 <span>$15.99</span></div>
+                </div>
+            </div>
+
+            <div class="box">
+                <span class="discount">-17%</span>
+                <div class="image">
+                    <img src="/images/img-8.jpg" alt="">
+                    <div class="icon">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="cart-btn">Add to cart</a>
+                        <a href="#" class="fas fa-share"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>flower pot</h3>
+                    <div class="price">$12.99 <span>$15.99</span></div>
+                </div>
+            </div>
+
+            <div class="box">
+                <span class="discount">-5%</span>
+                <div class="image">
+                    <img src="/images/img-9.jpg" alt="">
+                    <div class="icon">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="cart-btn">Add to cart</a>
+                        <a href="#" class="fas fa-share"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>flower pot</h3>
+                    <div class="price">$12.99 <span>$15.99</span></div>
+                </div>
+            </div>
+        </div>
+   </section>
+
+   <section class="review" id="review">
+    <h1 class="heading">customer <span>review</span></h1>
+    <div class="box-container">
+        <div class="box">
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+            <p>We ordered these for my mothers 91st. Birthday and Valentines Day. She was very surprised and happy with them. It was our third time ordering with you and we were very pleased with your service and the flowers, too.</p>
+            <div class="user">
+                <img src="/images/pfp1.webp" alt="">
+                <div class="user-info">
+                    <h3>John Doe</h3>
+                    <span>happy customer</span>
+                </div>
+            </div>
+            <span class="fas fa-quote-right"></span>
+        </div>
+    
+        <div class="box">
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+            <p>Everything went well with placing the order. The delivery was on time the the flowers were fresh and beautiful</p>
+            <div class="user">
+                <img src="/images/pfp2.jpeg" alt="">
+                <div class="user-info">
+                    <h3>Jane Doe</h3>
+                    <span>happy customer</span>
+                </div>
+            </div>
+            <span class="fas fa-quote-right"></span>
+        </div>
+    
+        <div class="box">
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+            <p>Hi. In error, I ordered flowers for my mother to be delivered on the Thursday AFTER Mother's Day. When I realized my mistake, I notified Flower online and requested a Saturday delivery. I was thrilled to learn that Mom's flowers arrived in time, although I know Flower was extremely busy. Thank you!</p>
+            <div class="user">
+                <img src="/images/pfp3.jpeg" alt="">
+                <div class="user-info">
+                    <h3>Jane Doe</h3>
+                    <span>happy customer</span>
+                </div>
+            </div>
+            <span class="fas fa-quote-right"></span>
+        </div>
+    </div>
+   </section>
+
+   <section class="contact" id="contact">
+        <h1 class="heading"><span>contact</span> us</h1>
+        <div class="row">
+            <form action="">
+                <input type="text" placeholder="Name" class="box">
+                <input type="email" placeholder="Email" class="box">
+                <input type="number" placeholder="Number" class="box">
+                <textarea name="" class="box" placeholder="Message" id="" cols="30" rows="10"></textarea>
+                <input type="submit" value="send message" class="btn">
+            </form>
+
+            <div class="image">
+                <img src="/images/water.jpeg" alt="">
+            </div>
+        </div>
+   </section>
+
+   <section class="footer">
+    <div class="box-container">
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="#">home</a>
+            <a href="#">about</a>
+            <a href="#">products</a>
+            <a href="#">review</a>
+            <a href="#">contact</a>
+        </div>
+
+        <div class="box">
+            <h3>extra links</h3>
+            <a href="#">my account</a>
+            <a href="#">my order</a>
+            <a href="#">my favorite</a>
+        </div>
+
+        <div class="box">
+            <h3>locations</h3>
+            <a href="#">USA</a>
+            <a href="#">Guyana</a>
+            <a href="#">Trinidad</a>
+            <a href="#">Bangladesh</a>
+            <a href="#">Pakistan</a>
+        </div>
+
+        <div class="box">
+            <h3>contact info</h3>
+            <a href="#">+123-456-7890</a>
+            <a href="#">default@gmail.com</a>
+            <a href="#">Brooklyn, NY</a>
+            <img src="/images/credit.png" alt="">
+        </div>
+    </div>
+   </section>
+
+    <link href="app.js">
+</body>
+</html>
